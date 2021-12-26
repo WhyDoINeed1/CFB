@@ -339,11 +339,17 @@
           "state" : "Florida"
         },
         {
-          "abbreviation" : "NOR",
-          "prestige" : "75",
-          "hexColor" : "#0675D0",
+          "abbreviation" : "FSU",
+          "prestige" : "80",
+          "hexColor" : "#782F40",
           "rivalryNames" : {
-
+          "FLO": "Sunshine Showdown",
+          "MIA": "Florida Cup",
+          "UCF": "Cross State Hate",
+          "FIU": "500 Miles of Hate",
+          "SBA": "Panhandle Cup",
+          "CLEM": "Bowden Bowl",
+          "VIR": "Jefferson-Eppes Trophy"
           },
           "offCoordinator" : {
             "contractLength" : "2",
@@ -360,7 +366,7 @@
             "contractYear" : "0"
           },
           "rival" : [
-            "BRG"
+            "FLO", "MIA", "UCF", "FIU", "SBA", "CLEM", "VIR"
           ],
           "defCoordinator" : {
             "contractLength" : "2",
@@ -391,15 +397,21 @@
             "name" : "Leon Lippitt",
             "contractYear" : "1"
           },
-          "name" : "New Orleans",
-          "state" : "Louisiana"
+          "name" : "Florida State",
+          "state" : "Florida"
         },
         {
-          "abbreviation" : "ARK",
-          "prestige" : "70",
-          "hexColor" : "#F27E34",
+          "abbreviation" : "TEN",
+          "prestige" : "75",
+          "hexColor" : "#FF8200",
           "rivalryNames" : {
-
+          "GEO": "Battle for the Boot",
+          "FLO": "Third Saturday in September",
+          "ALA": "Third Saturday in October",
+          "AUB": "Battle of the Orange",
+          "GT": "I-75 Battle",
+          "UK": "Battle for the Barrel",
+          "VAN": "Governor's Cup"
           },
           "offCoordinator" : {
             "contractLength" : "2",
@@ -416,7 +428,7 @@
             "contractYear" : "1"
           },
           "rival" : [
-            "LEX"
+            "GEO", "FLO", "ALA", "AUB", "GT", "UK", "VAN"
           ],
           "defCoordinator" : {
             "contractLength" : "2",
@@ -447,14 +459,21 @@
             "name" : "Albert Doerflinger",
             "contractYear" : "3"
           },
-          "name" : "Fayetteville",
-          "state" : "Arkansas"
+          "name" : "Tennessee",
+          "state" : "Tennessee"
         },
         {
-          "abbreviation" : "BRG",
-          "prestige" : "65",
-          "hexColor" : "#FFC021",
+          "abbreviation" : "GT",
+          "prestige" : "70",
+          "hexColor" : "#B3A369",
           "rivalryNames" : {
+          "GEO": "Clean, Old-Fashioned Hate",
+          "AUB": "Border War",
+          "TEN": "I-75 Battle",
+          "GRST": "Battle for Atlanta",
+          "VAN": "Gold Cowbell",
+          "CLEM": "I-85 Battle",
+          "VT": "Battle of the Techs"
 
           },
           "offCoordinator" : {
@@ -472,7 +491,7 @@
             "contractYear" : "0"
           },
           "rival" : [
-            "NOR"
+            "GEO", "AUB", "TEN", "GRST", "VAN", "CLEM", "VT"
           ],
           "defCoordinator" : {
             "contractLength" : "3",
@@ -503,14 +522,21 @@
             "name" : "Neal Mansel",
             "contractYear" : "2"
           },
-          "name" : "Baton Rouge",
-          "state" : "Louisiana"
+          "name" : "Georgia Tech",
+          "state" : "Georgia"
         },
         {
-          "abbreviation" : "KYW",
-          "prestige" : "65",
-          "hexColor" : "#00839C",
+          "abbreviation" : "UK",
+          "prestige" : "70",
+          "hexColor" : "#0033A0",
           "rivalryNames" : {
+          "TEN": "Battle for the Barrel",
+          "SC": "Southern War",
+          "APP": "300 Mile Drive",
+          "CCU": "Blue Bowl",
+          "LVL": "Governor's Cup",
+          "VAN": "Border War",
+          "IND": "Bourbon Barrel"
 
           },
           "offCoordinator" : {
@@ -528,7 +554,7 @@
             "contractYear" : "0"
           },
           "rival" : [
-            "ATL"
+            "TEN", "SC", "APP", "CCU", "LVL", "VAN", "IND"
           ],
           "defCoordinator" : {
             "contractLength" : "1",
@@ -559,14 +585,20 @@
             "name" : "Victor Gelfand",
             "contractYear" : "4"
           },
-          "name" : "Key West",
-          "state" : "Florida"
+          "name" : "Kentucky",
+          "state" : "Kentucky"
         },
         {
-          "abbreviation" : "LEX",
-          "prestige" : "50",
-          "hexColor" : "#FF9900",
+          "abbreviation" : "UCF",
+          "prestige" : "70",
+          "hexColor" : "#BA9B37",
           "rivalryNames" : {
+          "FLO": "Battle for Central Florida",
+          "MIA": "Fight for the Turnpike",
+          "FSU": "Cross State Hate",
+          "USF": "War on I-4",
+          "FLA": "Florida War",
+          "ECU": "Golden Sword"
 
           },
           "offCoordinator" : {
@@ -584,7 +616,7 @@
             "contractYear" : "2"
           },
           "rival" : [
-            "ARK"
+            "FLO", "MIA", "FSU", "USF", "FLA", ECU"
           ],
           "defCoordinator" : {
             "contractLength" : "2",
@@ -615,21 +647,28 @@
             "name" : "Micah Roghair",
             "contractYear" : "5"
           },
-          "name" : "Lexington",
-          "state" : "Kentucky"
+          "name" : "Central Florida",
+          "state" : "Florida"
         }
       ],
-      "confFullName" : "Southern",
+      "confFullName" : "Southeastern",
       "confPrestige" : "90",
-      "confName" : "SOUTH"
+      "confName" : "SEC"
     },
     {
       "confTeams" : [
         {
-          "abbreviation" : "AAR",
-          "prestige" : "90",
-          "hexColor" : "#FCD116",
+          "abbreviation" : "OSU",
+          "prestige" : "95",
+          "hexColor" : "#BB0000",
           "rivalryNames" : {
+          "MICH": "The Game",
+          "IND": "Battle of I-70",
+          "ILL": "Illibuck Trophy",
+          "AKR": "Battle of I-71",
+          "MAR": "Border War",
+          "CIN": "Hell is Real",
+          "PENN": "Border War"
 
           },
           "offCoordinator" : {
@@ -647,7 +686,7 @@
             "contractYear" : "1"
           },
           "rival" : [
-            "CLB"
+            "MICH", "IND", "ILL", "AKR", "MAR", "CIN", "PENN"
           ],
           "defCoordinator" : {
             "contractLength" : "3",
@@ -678,14 +717,21 @@
             "name" : "Weldon Gaumond",
             "contractYear" : "1"
           },
-          "name" : "Ann Arbor",
-          "state" : "Michigan"
+          "name" : "Ohio State",
+          "state" : "Ohio"
         },
         {
-          "abbreviation" : "CLB",
-          "prestige" : "90",
-          "hexColor" : "#FFFF63",
+          "abbreviation" : "MICH",
+          "prestige" : "85",
+          "hexColor" : "#00274C",
           "rivalryNames" : {
+          "OSU": "The Game",
+          "MIST": "Paul Bunyan Trophy",
+          "MIN": "Little Brown Jug",
+          "NWT": "George Jewett Trophy",
+          "CMI": "Friendly Rivalry",
+          "EMI": "Battle for Detroit",
+          "ND": "Blue and Yellow Bowl"
 
           },
           "offCoordinator" : {
@@ -703,7 +749,7 @@
             "contractYear" : "1"
           },
           "rival" : [
-            "AAR"
+            "OSU", "MIST", "MIN", "NWT", "CMI", "EMI", "ND"
           ],
           "defCoordinator" : {
             "contractLength" : "3",
@@ -734,14 +780,20 @@
             "name" : "Luke Eury",
             "contractYear" : "2"
           },
-          "name" : "Columbus",
-          "state" : "Ohio"
+          "name" : "Michigan",
+          "state" : "Michigan"
         },
         {
-          "abbreviation" : "LAN",
+          "abbreviation" : "MIST",
           "prestige" : "80",
-          "hexColor" : "#FFCD02",
+          "hexColor" : "#18453B",
           "rivalryNames" : {
+          "MICH": "Paul Bunyan Trophy",
+          "IND": "Old Brass Spittoon",
+          "MIN": "Battle for Lake Superior",
+          "CMI": "Governor's Cup",
+          "ND": "Megaphone Trohpy",
+          "PENN": "Land Grant Trophy"
 
           },
           "offCoordinator" : {
@@ -759,7 +811,7 @@
             "contractYear" : "0"
           },
           "rival" : [
-            "MIN"
+            "MICH", "IND", "MIN", "CMI", "ND", "PENN"
           ],
           "defCoordinator" : {
             "contractLength" : "1",
@@ -790,14 +842,19 @@
             "name" : "Antwaun Younghans",
             "contractYear" : "1"
           },
-          "name" : "Lansing",
+          "name" : "Michigan State",
           "state" : "Michigan"
         },
         {
-          "abbreviation" : "CHI",
-          "prestige" : "70",
-          "hexColor" : "#046546",
+          "abbreviation" : "IND",
+          "prestige" : "75",
+          "hexColor" : "#990000",
           "rivalryNames" : {
+          "OSU": "Battle of I-70",
+          "MIST": "Old Brass Spittoon",
+          "PUR": "Old Oaken Bucket",
+          "BALL": "Battle of I-69",
+          "UK": "Bourbon Barrel"
 
           },
           "offCoordinator" : {
@@ -815,7 +872,7 @@
             "contractYear" : "2"
           },
           "rival" : [
-            "DET"
+            "OSU", "MIST", "PUR", "BALL", "UK"
           ],
           "defCoordinator" : {
             "contractLength" : "1",
@@ -846,14 +903,20 @@
             "name" : "Taj Sundell",
             "contractYear" : "4"
           },
-          "name" : "Chicago",
-          "state" : "Illinois"
+          "name" : "Indiana",
+          "state" : "Indiana"
         },
         {
-          "abbreviation" : "MAD",
-          "prestige" : "70",
-          "hexColor" : "#008080",
+          "abbreviation" : "WISC",
+          "prestige" : "75",
+          "hexColor" : "#C5050C",
           "rivalryNames" : {
+          "PUR": "Battle of I-65",
+          "MIN": "Paul Bunyan's Axe",
+          "IOW": "Heartland Trophy",
+          "NWT": "Battle for Lake Michigan",
+          "IOST": "Midwest Showdown",
+          "NEB": "Freedom Trophy"
 
           },
           "offCoordinator" : {
@@ -871,7 +934,7 @@
             "contractYear" : "0"
           },
           "rival" : [
-            "BLO"
+            "PUR", "MIN", "IOW", "NWT", "IOST", "NEB"
           ],
           "defCoordinator" : {
             "contractLength" : "1",
@@ -902,15 +965,19 @@
             "name" : "Omar Pizana",
             "contractYear" : "1"
           },
-          "name" : "Madison",
+          "name" : "Wisconsin",
           "state" : "Wisconsin"
         },
         {
-          "abbreviation" : "MIN",
-          "prestige" : "70",
-          "hexColor" : "#FCBA29",
+          "abbreviation" : "IOW",
+          "prestige" : "75",
+          "hexColor" : "#FFCD00",
           "rivalryNames" : {
-
+          "MIN": "Floyd of Rosedale",
+          "WISC": "Heartland Trophy",
+          "NWT": "Midwest Showdown",
+          "IOST": "Cy-Hawk Trophy",
+          "NEB": "Heroes Game"
           },
           "offCoordinator" : {
             "contractLength" : "1",
@@ -927,7 +994,7 @@
             "contractYear" : "0"
           },
           "rival" : [
-            "LAN"
+            "MIN", "WISC", "NWT", "IOST", "NEB"
           ],
           "defCoordinator" : {
             "contractLength" : "2",
@@ -958,14 +1025,20 @@
             "name" : "Wendell Flohr",
             "contractYear" : "3"
           },
-          "name" : "Minneapolis",
-          "state" : "Minnesota"
+          "name" : "Iowa",
+          "state" : "Iowa"
         },
         {
-          "abbreviation" : "DET",
-          "prestige" : "65",
-          "hexColor" : "#0756A4",
+          "abbreviation" : "IOST",
+          "prestige" : "75",
+          "hexColor" : "#C8102E",
           "rivalryNames" : {
+          "MIN": "Border War",
+          "WISC": "Midwest Showdown",
+          "NWT": "Midwest Showdown",
+          "IOW": "Cy-Hawk Trophy",
+          "KSST": "Farmaggedon",
+          "MIS": "Telephone Trophy"
 
           },
           "offCoordinator" : {
@@ -983,7 +1056,7 @@
             "contractYear" : "2"
           },
           "rival" : [
-            "CHI"
+            "MIN", "WISC", "NWT", "IOW", "KSST", "MIS"
           ],
           "defCoordinator" : {
             "contractLength" : "2",
@@ -1014,14 +1087,19 @@
             "name" : "Ethan Donehoo",
             "contractYear" : "2"
           },
-          "name" : "Detroit",
-          "state" : "Michigan"
+          "name" : "Iowa State",
+          "state" : "Iowa"
         },
         {
-          "abbreviation" : "BLO",
-          "prestige" : "65",
-          "hexColor" : "#D59C3A",
+          "abbreviation" : "PUR",
+          "prestige" : "70",
+          "hexColor" : "#CEB888",
           "rivalryNames" : {
+          "IND": "Old Oaken Bucket",
+          "ILL": "Purdue Cannon",
+          "BALL": "North Indy Trophy",
+          "WISC": "Battle of I-65",
+          "ND": "Shillelagh Trophy"
 
           },
           "offCoordinator" : {
@@ -1039,7 +1117,7 @@
             "contractYear" : "0"
           },
           "rival" : [
-            "MAD"
+            "IND", "ILL", "BALL", "WISC", "ND"
           ],
           "defCoordinator" : {
             "contractLength" : "1",
@@ -1070,14 +1148,21 @@
             "name" : "Zachery Pflanz",
             "contractYear" : "2"
           },
-          "name" : "Bloomington",
+          "name" : "Purdue",
           "state" : "Indiana"
         },
         {
-          "abbreviation" : "CLE",
-          "prestige" : "55",
-          "hexColor" : "#C68746",
+          "abbreviation" : "MIN",
+          "prestige" : "70",
+          "hexColor" : "#7A0019",
           "rivalryNames" : {
+          "MICH": "Little Brown Jug",
+          "MIST": "Battle for Lake Superior",
+          "WISC": "Paul Bunyan's Axe",
+          "IOW": "Floyd of Rosedale",
+          "IOST": "Border War",
+          "NEB": "$5 Bits of Broken Chair Trophy",
+          "PENN": "Governor's Victory Bell"
 
           },
           "offCoordinator" : {
@@ -1095,7 +1180,7 @@
             "contractYear" : "0"
           },
           "rival" : [
-            "MIL"
+            "MICH", "MIST", "WISC", "IOW", "IOST", "NEB", "PENN"
           ],
           "defCoordinator" : {
             "contractLength" : "3",
@@ -1126,14 +1211,21 @@
             "name" : "Stanley Doxon",
             "contractYear" : "1"
           },
-          "name" : "Univ of Cleveland",
-          "state" : "Ohio"
+          "name" : "Minnesota",
+          "state" : "Minnesota"
         },
         {
-          "abbreviation" : "MIL",
-          "prestige" : "45",
-          "hexColor" : "#008C75",
+          "abbreviation" : "NWT",
+          "prestige" : "70",
+          "hexColor" : "#4E2A84",
           "rivalryNames" : {
+          "MICH": "George Jewett Trophy",
+          "WISC": "Battle for Lake Michigan",
+          "ILL": "Land of Lincoln Trophy",
+          "IOW": "Midwest Showdown",
+          "IOST": "Midwest Showdown",
+          "NIL": "Battle for Chicago",
+          "ND": "Battle for Lake Michigan"
 
           },
           "offCoordinator" : {
@@ -1151,7 +1243,7 @@
             "contractYear" : "0"
           },
           "rival" : [
-            "CLE"
+            "MICH", "WISC", "ILL", "IOW", "IOST", "NIL", "ND"
           ],
           "defCoordinator" : {
             "contractLength" : "1",
@@ -1182,21 +1274,31 @@
             "name" : "Davis Siegfried",
             "contractYear" : "4"
           },
-          "name" : "Milwaukee",
-          "state" : "Wisconsin"
+          "name" : "Northwestern",
+          "state" : "Illinois"
         }
       ],
-      "confFullName" : "Lakes",
+      "confFullName" : "Big 10",
       "confPrestige" : "90",
-      "confName" : "LAKES"
+      "confName" : "B1G"
     },
     {
       "confTeams" : [
         {
-          "abbreviation" : "NYS",
-          "prestige" : "90",
-          "hexColor" : "#FEC003",
+          "abbreviation" : "CLEM",
+          "prestige" : "95",
+          "hexColor" : "#F56600",
           "rivalryNames" : {
+          "NCST": "Textile Bowl",
+          "BC": "O'Rourke-McFadden Trophy",
+          "WAKE": "Carolina War",
+          "ECU": "NE vs SW Carolina",
+          "SC": "Palmetto Bowl",
+          "GEO": "Border War",
+          "ALA": "Respectful Bowl",
+          "AUB": "The Old Rivalry",
+          "GT": "I-85 Battle",
+          "FSU": "Bowden Bowl"
 
           },
           "offCoordinator" : {
@@ -1214,7 +1316,7 @@
             "contractYear" : "0"
           },
           "rival" : [
-            "NYC"
+            "NCST", "BC", "WAKE", "ECU", "SC", "GEO", "ALA", "AUB", "GT", "FSU"
           ],
           "defCoordinator" : {
             "contractLength" : "3",
@@ -1245,14 +1347,24 @@
             "name" : "Riley Clarendon",
             "contractYear" : "4"
           },
-          "name" : "New York St",
-          "state" : "New York"
+          "name" : "Clemson",
+          "state" : "South Carolina"
         },
         {
-          "abbreviation" : "NWJ",
-          "prestige" : "85",
-          "hexColor" : "#FFF63E",
+          "abbreviation" : "ND",
+          "prestige" : "90",
+          "hexColor" : "#0C2340",
           "rivalryNames" : {
+          "PITT": "Battle of I-80",
+          "VIR": "Freshly Born Hate",
+          "BC": "Holy War",
+          "LIB": "Catholics vs Baptists",
+          "STAN": "Legends Trophy",
+          "USC": "Jeweled Shillelagh",
+          "MICH": "Blue and Yellow Bowl",
+          "PUR": "Shillelagh Trophy",
+          "NWT": "Battle for Lake Michigan",
+          "MIST": "Megaphone Trophy"
 
           },
           "offCoordinator" : {
@@ -1270,7 +1382,7 @@
             "contractYear" : "0"
           },
           "rival" : [
-            "PEN"
+            "PITT", "VIR", "BC", "LIB", "STAN", "USC", "MICH", "PUR", "NWT", "MIST"
           ],
           "defCoordinator" : {
             "contractLength" : "3",
@@ -1301,8 +1413,8 @@
             "name" : "Loren Niblock",
             "contractYear" : "2"
           },
-          "name" : "New Jersey",
-          "state" : "New Jersey"
+          "name" : "Notre Dame",
+          "state" : "Indiana"
         },
         {
           "abbreviation" : "NYC",
