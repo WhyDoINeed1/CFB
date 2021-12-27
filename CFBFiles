@@ -2796,10 +2796,14 @@
           "state" : "California"
         },
         {
-          "abbreviation" : "OAK",
+          "abbreviation" : "UCLA",
           "prestige" : "75",
-          "hexColor" : "#FFC10E",
+          "hexColor" : "#2D68C4",
           "rivalryNames" : {
+          "CAL": "Bear Bowl",
+          "USC": "Crosstown Cup",
+          "SDST": "Southern Cali Showdown",
+          "SJST": "Cali Coast Fight"
 
           },
           "offCoordinator" : {
@@ -2817,7 +2821,7 @@
             "contractYear" : "1"
           },
           "rival" : [
-            "HOL"
+            "CAL", "USC", "SDST", "SJST"
           ],
           "defCoordinator" : {
             "contractLength" : "3",
@@ -2848,14 +2852,20 @@
             "name" : "Scot Roussel",
             "contractYear" : "3"
           },
-          "name" : "Oakland St",
+          "name" : "UCLA",
           "state" : "California"
         },
         {
-          "abbreviation" : "HOL",
-          "prestige" : "70",
-          "hexColor" : "#FCA120",
+          "abbreviation" : "USC",
+          "prestige" : "75",
+          "hexColor" : "#990000",
           "rivalryNames" : {
+          "CAL": "Cali Bowl",
+          "STAN": "Battle for the Coast",
+          "UCLA": "Crosstown Cup",
+          "UTA": "Southwest Hate",
+          "SDST": "South Cali Hate",
+          "ND": "Jeweled Shillelagh"
 
           },
           "offCoordinator" : {
@@ -2873,7 +2883,7 @@
             "contractYear" : "2"
           },
           "rival" : [
-            "OAK"
+            "CAL", "STAN", "UCLA", "UTA", "SDST", "ND"
           ],
           "defCoordinator" : {
             "contractLength" : "3",
@@ -2904,14 +2914,18 @@
             "name" : "Dillon Lawyer",
             "contractYear" : "4"
           },
-          "name" : "Hollywood St",
+          "name" : "USC",
           "state" : "California"
         },
         {
-          "abbreviation" : "HLU",
+          "abbreviation" : "CAL",
           "prestige" : "70",
-          "hexColor" : "#00563C",
+          "hexColor" : "#003262",
           "rivalryNames" : {
+          "STAN": "Big Game",
+          "UCLA": "Bear Bowl",
+          "USC": "Cali Bowl",
+          "FRE": "North Cali Hate"
 
           },
           "offCoordinator" : {
@@ -2929,7 +2943,7 @@
             "contractYear" : "0"
           },
           "rival" : [
-            "SAM"
+            "STAN", "UCLA", "USC", "FRE"
           ],
           "defCoordinator" : {
             "contractLength" : "2",
@@ -2960,15 +2974,20 @@
             "name" : "Emmanuel Berhe",
             "contractYear" : "5"
           },
-          "name" : "Honolulu",
-          "state" : "Hawaii"
+          "name" : "California",
+          "state" : "California"
         },
         {
-          "abbreviation" : "PUL",
+          "abbreviation" : "BOI",
           "prestige" : "70",
-          "hexColor" : "#AA976C",
+          "hexColor" : "#0033A0",
           "rivalryNames" : {
-
+          "ORE": "Green and Blue Bowl",
+          "ORST": "Northwest Showdown",
+          "FRE": "Milk Can",
+          "NEV": "Out West Bowl",
+          "WYO": "Mountain Bowl",
+          "BYU": "Blue Bowl"
           },
           "offCoordinator" : {
             "contractLength" : "2",
@@ -2985,7 +3004,7 @@
             "contractYear" : "0"
           },
           "rival" : [
-            "SAN"
+            "ORE", "ORST", "FRE", "NEV", "WYO", "BYU"
           ],
           "defCoordinator" : {
             "contractLength" : "2",
@@ -3016,14 +3035,20 @@
             "name" : "Frank McTiernan",
             "contractYear" : "0"
           },
-          "name" : "Pullman",
-          "state" : "Washington"
+          "name" : "Boise State",
+          "state" : "Idaho"
         },
         {
-          "abbreviation" : "SAN",
-          "prestige" : "60",
-          "hexColor" : "#01539B",
+          "abbreviation" : "UTA",
+          "prestige" : "70",
+          "hexColor" : "#CC0000",
           "rivalryNames" : {
+          "USC": "Southwest Hate",
+          "AZST": "Battle for the Desert",
+          "UTST": "Battle of the Brothers",
+          "ARZ": "Fight for the Desert",
+          "BYU": "Holy War",
+          "COL": "Rumble in the Rockies"
 
           },
           "offCoordinator" : {
@@ -3041,7 +3066,7 @@
             "contractYear" : "1"
           },
           "rival" : [
-            "PUL"
+            "USC", "AZST", "UTST", "ARZ", "BYU", "COL"
           ],
           "defCoordinator" : {
             "contractLength" : "2",
@@ -3072,14 +3097,21 @@
             "name" : "Ethan Westermeier",
             "contractYear" : "5"
           },
-          "name" : "San Diego",
-          "state" : "California"
+          "name" : "Utah",
+          "state" : "Utah"
         },
         {
-          "abbreviation" : "SAM",
-          "prestige" : "25",
-          "hexColor" : "#E6BE2A",
+          "abbreviation" : "UTST",
+          "prestige" : "70",
+          "hexColor" : "#00263A",
           "rivalryNames" : {
+          "UTA": "Battle of the Brothers",
+          "WYO": "Bridger's Battle",
+          "NEV": "Border War",
+          "NM": "Four Corner Fight",
+          "ARZ": "Southwest Rivals",
+          "AZST": "Southwest State Hate",
+          "BYU": "Old Wagon Wheel"
 
           },
           "offCoordinator" : {
@@ -3097,7 +3129,7 @@
             "contractYear" : "0"
           },
           "rival" : [
-            "HLU"
+            "UTA", "WYO", "NEV", "NM", "ARZ", "AZST", "BYU"
           ],
           "defCoordinator" : {
             "contractLength" : "3",
@@ -3128,21 +3160,29 @@
             "name" : "Payton Philbrick",
             "contractYear" : "3"
           },
-          "name" : "American Samoa",
-          "state" : "American Samoa"
+          "name" : "Utah State",
+          "state" : "Utah"
         }
       ],
-      "confFullName" : "Pacific",
+      "confFullName" : "Pacific Twelve",
       "confPrestige" : "80",
-      "confName" : "PACIF"
+      "confName" : "PAC"
     },
     {
       "confTeams" : [
         {
-          "abbreviation" : "SAL",
+          "abbreviation" : "TEX",
           "prestige" : "85",
-          "hexColor" : "#EE9627",
+          "hexColor" : "#BF5700",
           "rivalryNames" : {
+          "TTU": "Chancellor's Spurs",
+          "ARK": "Red and Orange Bowl",
+          "TAM": "Lone Star Showdown",
+          "TCU": "Battle of I-35",
+          "BAY": "Wild West Showdown",
+          "RICE": "Moon Bowl",
+          "OU": "Red River Showdown",
+          "NEB": "Red vs Orange"
 
           },
           "offCoordinator" : {
@@ -3160,7 +3200,7 @@
             "contractYear" : "1"
           },
           "rival" : [
-            "SDY"
+            "TTU", "ARK", "TAM", "TCU", "BAY", "RICE", "OU", "NEB"
           ],
           "defCoordinator" : {
             "contractLength" : "2",
@@ -3191,14 +3231,24 @@
             "name" : "Bryan Zenisek",
             "contractYear" : "0"
           },
-          "name" : "Salt Lake St",
-          "state" : "Utah"
+          "name" : "Texas",
+          "state" : "Texas"
         },
         {
-          "abbreviation" : "BOU",
-          "prestige" : "80",
-          "hexColor" : "#01A9EF",
+          "abbreviation" : "LSU",
+          "prestige" : "85",
+          "hexColor" : "#461D7C",
           "rivalryNames" : {
+          "TAM": "Border War",
+          "ARK": "Battle for the Golden Boot",
+          "OLE": "Magnolia Bowl",
+          "TLN": "Battle for the Rag",
+          "LAT": "Louisiana Hate",
+          "LSA": "Governor's Cup",
+          "MSST": "100 Years Trophy",
+          "FLO": "Battle for the Gulf",
+          "ALA": "Saban Bowl",
+          "AUB": "Tiger Bowl"
 
           },
           "offCoordinator" : {
@@ -3216,7 +3266,7 @@
             "contractYear" : "0"
           },
           "rival" : [
-            "CME"
+            "TAM", "ARK", "OLE", "TLN", "LAT", "LSA", "MSST", "FLO", "ALA", "AUB"
           ],
           "defCoordinator" : {
             "contractLength" : "3",
@@ -3247,14 +3297,21 @@
             "name" : "Devron Kalk",
             "contractYear" : "0"
           },
-          "name" : "Boulder",
-          "state" : "Colorado"
+          "name" : "Louisiana State",
+          "state" : "Louisiana"
         },
         {
-          "abbreviation" : "CME",
-          "prestige" : "75",
-          "hexColor" : "#D2DDFC",
+          "abbreviation" : "TAM",
+          "prestige" : "80",
+          "hexColor" : "#500000",
           "rivalryNames" : {
+          "TEX": "Lone Star Showdown",
+          "TTU": "Sunset Showdown",
+          "BAY": "Battle of the Brazos",
+          "TCU": "Battle of Route 6",
+          "HOU": "100 Mile Drive",
+          "LSU": "Border War",
+          "ARK": "Southwest Classic"
 
           },
           "offCoordinator" : {
@@ -3272,7 +3329,7 @@
             "contractYear" : "0"
           },
           "rival" : [
-            "BOU"
+            "TEX", "TTU", "BAY", "TCU", "HOU", "LSU", "ARK"
           ],
           "defCoordinator" : {
             "contractLength" : "1",
@@ -3303,14 +3360,21 @@
             "name" : "Robert Sobin",
             "contractYear" : "1"
           },
-          "name" : "Commerce City",
-          "state" : "Colorado"
+          "name" : "Texas A&M",
+          "state" : "Texas"
         },
         {
-          "abbreviation" : "SDY",
+          "abbreviation" : "TTU",
           "prestige" : "75",
-          "hexColor" : "#FF7300",
+          "hexColor" : "#CC0000",
           "rivalryNames" : {
+          "TEX": "Chancellor's Spurs",
+          "BAY": "Texas Farm Shootout",
+          "TCU": "West Texas Championship",
+          "TAM": "Sunset Showdown",
+          "UTEP": "Battle of US-180",
+          "UNT": "Battle for North Texas",
+          "OKST": "Border War"
 
           },
           "offCoordinator" : {
@@ -3328,7 +3392,7 @@
             "contractYear" : "1"
           },
           "rival" : [
-            "SAL"
+            "TEX", "BAY", "TCU", "TAM", "UTEP", "UNT", "OKST"
           ],
           "defCoordinator" : {
             "contractLength" : "2",
@@ -3359,14 +3423,23 @@
             "name" : "Zach Bradburn",
             "contractYear" : "5"
           },
-          "name" : "Sandy",
-          "state" : "Utah"
+          "name" : "Texas Tech",
+          "state" : "Texas"
         },
         {
-          "abbreviation" : "YEL",
+          "abbreviation" : "OLE",
           "prestige" : "75",
-          "hexColor" : "#744143",
+          "hexColor" : "#CE1126",
           "rivalryNames" : {
+          "ARK": "Border War",
+          "LSU": "Magnolia Bowl",
+          "TLN": "Battle of I-55",
+          "SNM": "Sides of Mississippi",
+          "MSST": "Egg Bowl",
+          "VAN": "The Small Rivalry",
+          "AUB": "Pine Box Bowl",
+          "MEM": "Mid-South Rivalry",
+          "ALA": "Border War"
 
           },
           "offCoordinator" : {
@@ -3384,7 +3457,7 @@
             "contractYear" : "0"
           },
           "rival" : [
-            "ALB"
+            "ARK", "LSU", "TLN", "SNM", "MSST", "VAN", "AUB", "MEM", "ALA"
           ],
           "defCoordinator" : {
             "contractLength" : "2",
@@ -3415,14 +3488,19 @@
             "name" : "Montrell Hentges",
             "contractYear" : "1"
           },
-          "name" : "Yellowstone St",
-          "state" : "Wyoming"
+          "name" : "Ole Miss",
+          "state" : "Mississippi"
         },
         {
-          "abbreviation" : "ALB",
+          "abbreviation" : "BAY",
           "prestige" : "70",
-          "hexColor" : "#01592F",
+          "hexColor" : "#154734",
           "rivalryNames" : {
+          "TEX": "Wild West Showdown",
+          "TTU": "Texas Farm Shootout",
+          "TCU": "The Revivalry",
+          "TAM": "Battle of the Brazos",
+          "SMU": "Battle for the Prarie"
 
           },
           "offCoordinator" : {
@@ -3440,7 +3518,7 @@
             "contractYear" : "0"
           },
           "rival" : [
-            "YEL"
+            "TEX", "TTU", "TCU", "TAM", "SMU"
           ],
           "defCoordinator" : {
             "contractLength" : "3",
@@ -3471,14 +3549,19 @@
             "name" : "Terrence Wager",
             "contractYear" : "1"
           },
-          "name" : "Albuquerque",
-          "state" : "New Mexico"
+          "name" : "Baylor",
+          "state" : "Texas"
         },
         {
-          "abbreviation" : "CHY",
-          "prestige" : "60",
-          "hexColor" : "#295A29",
+          "abbreviation" : "TCU",
+          "prestige" : "70",
+          "hexColor" : "#4D1979",
           "rivalryNames" : {
+          "TEX": "Battle of I-35",
+          "TTU": "West Texas Championship",
+          "BAY": "The Revivalry",
+          "SMU": "Iron Skillet",
+          "TAM": "Battle of Route 6"
 
           },
           "offCoordinator" : {
@@ -3496,7 +3579,7 @@
             "contractYear" : "0"
           },
           "rival" : [
-            "MON"
+            "TEX", "TTU", "BAY", "SMU", "TAM"
           ],
           "defCoordinator" : {
             "contractLength" : "2",
@@ -3527,14 +3610,19 @@
             "name" : "JJ Apshire",
             "contractYear" : "4"
           },
-          "name" : "Cheyenne",
-          "state" : "Wyoming"
+          "name" : "TCU",
+          "state" : "Texas"
         },
         {
-          "abbreviation" : "MON",
-          "prestige" : "55",
-          "hexColor" : "#DE3444",
+          "abbreviation" : "HOU",
+          "prestige" : "70",
+          "hexColor" : "#C8102E",
           "rivalryNames" : {
+          "RICE": "Bayou Bucket Classic",
+          "UTSA": "200 Mile Drive",
+          "TAM": "100 Mile Drive",
+          "LSA": "Border War",
+          "TUL": "Astrodome Trophy"
 
           },
           "offCoordinator" : {
@@ -3552,7 +3640,7 @@
             "contractYear" : "0"
           },
           "rival" : [
-            "CHY"
+            "RICE", "UTSA", "TAM", "LSA", "TUL"
           ],
           "defCoordinator" : {
             "contractLength" : "2",
@@ -3583,14 +3671,18 @@
             "name" : "Brayden Scavo",
             "contractYear" : "1"
           },
-          "name" : "Montana",
-          "state" : "Montana"
+          "name" : "Houston",
+          "state" : "Texas"
         },
         {
-          "abbreviation" : "LSV",
-          "prestige" : "50",
-          "hexColor" : "#005A8B",
+          "abbreviation" : "SMU",
+          "prestige" : "70",
+          "hexColor" : "#C8102E",
           "rivalryNames" : {
+          "BAY": "Battle for the Prarie",
+          "TCU": "Iron Skillet",
+          "UNT": "Safeway Bowl",
+          "RICE": "Mayor's Cup"
 
           },
           "offCoordinator" : {
@@ -3608,7 +3700,7 @@
             "contractYear" : "0"
           },
           "rival" : [
-            "PHO"
+            "BAY", "TCU", "UNT", "RICE"
           ],
           "defCoordinator" : {
             "contractLength" : "2",
@@ -3639,14 +3731,20 @@
             "name" : "Teddy Harrison",
             "contractYear" : "3"
           },
-          "name" : "Las Vegas",
-          "state" : "Nevada"
+          "name" : "SMU",
+          "state" : "Texas"
         },
         {
-          "abbreviation" : "PHO",
-          "prestige" : "45",
-          "hexColor" : "#FF7000",
+          "abbreviation" : "ARK",
+          "prestige" : "70",
+          "hexColor" : "#9D2235",
           "rivalryNames" : {
+          "TEX": "Red and Orange Bowl",
+          "TAM": "Southwest Classic",
+          "OLE": "Border War",
+          "LSU": "Battle for the Golden Boot",
+          "AKST": "Battle for Arkansas",
+          "MIS": "Battle Line Rivalry"
 
           },
           "offCoordinator" : {
@@ -3664,7 +3762,7 @@
             "contractYear" : "0"
           },
           "rival" : [
-            "LSV"
+            "TEX", "TAM", "OLE", "LSU", "AKST", "MIS"
           ],
           "defCoordinator" : {
             "contractLength" : "1",
@@ -3695,13 +3793,13 @@
             "name" : "Maurice Burrus",
             "contractYear" : "3"
           },
-          "name" : "Phoenix",
-          "state" : "Arizona"
+          "name" : "Arkansas",
+          "state" : "Arkansas"
         }
       ],
-      "confFullName" : "Mountain",
-      "confPrestige" : "75",
-      "confName" : "MOUNT"
+      "confFullName" : "Lone Star",
+      "confPrestige" : "80",
+      "confName" : "STAR"
     },
     {
       "confTeams" : [
