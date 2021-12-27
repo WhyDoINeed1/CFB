@@ -616,7 +616,7 @@
             "contractYear" : "2"
           },
           "rival" : [
-            "FLO", "MIA", "FSU", "USF", "FLA", ECU"
+            "FLO", "MIA", "FSU", "USF", "FLA", "ECU"
           ],
           "defCoordinator" : {
             "contractLength" : "2",
@@ -4049,7 +4049,7 @@
         {
           "abbreviation" : "UAB",
           "prestige" : "55",
-          "hexColor" : "#006341,
+          "hexColor" : "#006341",
           "rivalryNames" : {
           "ALA": "Bama Bowl",
           "AUB": "US-280 Hate",
@@ -5119,7 +5119,7 @@
             "contractYear" : "0"
           },
           "rival" : [
-            "CLEM", "SYR", "VT", "ND", "CON", "MRY", "BUF
+            "CLEM", "SYR", "VT", "ND", "CON", "MRY", "BUF"
           ],
           "defCoordinator" : {
             "contractLength" : "3",
@@ -7019,7 +7019,7 @@
         {
           "abbreviation" : "TLN",
           "prestige" : "65",
-          "hexColor" : #006747",
+          "hexColor" : "#006747",
           "rivalryNames" : {
           "OLE": "Battle of I-55",
           "LSU": "Battle for the Rag",
@@ -7140,7 +7140,7 @@
         {
           "abbreviation" : "SNM",
           "prestige" : "55",
-          "hexColor" : #FFAB00",
+          "hexColor" : "#FFAB00",
           "rivalryNames" : {
           "OLE": "Sides of Mississippi",
           "LAT": "Rivalry in Dixie",
