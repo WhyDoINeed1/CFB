@@ -1,19 +1,19 @@
 {
-  "promotionRoutes" : {
+    "promotionRoutes" : {
     "MAC" : "B1G",
     "MW" : "PAC",
     "AAC" : "XII",
+    "SW" : "STAR",
     "CUSA" : "ACC",
-    "SUN" : "SEC",
-    "SW" : "STAR"
+    "SUN" : "SEC"
   },
   "relegationRoutes" : {
+    "STAR" : "SW",
+    "ACC" : "CUSA",
     "B1G" : "MAC",
     "PAC" : "MW",
-    "XII" : "AAC",
-    "ACC" : "CUSA",
     "SEC" : "SUN",
-    "STAR" : "SW"
+    "XII" : "AAC"
   },
   "conferences" : [
     {
